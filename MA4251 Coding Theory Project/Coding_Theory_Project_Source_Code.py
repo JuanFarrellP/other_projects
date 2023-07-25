@@ -551,7 +551,7 @@ def encode():
 	
 	A = RREF(q,S)
 	if len(U) != len(A):
-		output2.config(text="Panjang 'Word' tidak sesuai.")
+		output2.config(text="The length of 'Word' does not match.")
 	else:
 		G = generator_matrix(q,A)
 		
